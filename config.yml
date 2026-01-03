@@ -1,0 +1,28 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "home"
+        label: "Home Page"
+        file: "content/home.json"
+        fields:
+          - { label: "Hero Headline", name: "headline", widget: "string" }
+          - { label: "Hero Subheadline", name: "subhead", widget: "string" }
+          - { label: "Hero Button Text", name: "ctaText", widget: "string" }
+          - { label: "Hero Button Link", name: "ctaLink", widget: "string" }
+          - { label: "Logo", name: "logo", widget: "image" }
+          - { label: "Hero Background Image", name: "heroBg", widget: "image" }
+
+          - label: "Services"
+            name: "services"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }

@@ -1,0 +1,22 @@
+{
+  "headline": "Dependable Supply Chain Solutions \u2014 365 Days a Year",
+  "subhead": "Mission\u2011critical procurement, fulfillment, and delivery designed to keep your operations running without interruption.",
+  "ctaText": "Request a Custom Quote",
+  "ctaLink": "#contact",
+  "logo": "/assets/logo.png",
+  "heroBg": "/assets/city.jpg",
+  "services": [
+    {
+      "title": "Strategic Supply & Procurement",
+      "desc": "Expert sourcing, competitive pricing, and reliable fulfillment tailored to your operational requirements."
+    },
+    {
+      "title": "Priority Distribution & Delivery",
+      "desc": "Consistent, on\u2011time delivery with proactive coordination to eliminate downtime and delays."
+    },
+    {
+      "title": "Custom & Emergency Requests",
+      "desc": "Rapid access to hard\u2011to\u2011find items, rush orders, and specialized supplier solutions when it matters most."
+    }
+  ]
+}
